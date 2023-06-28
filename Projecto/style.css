@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    color: aliceblue;
+    background-image: url(imagens/background-noise-black.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}
+
+label{
+    display: block;
+}
+
+input[type="submit"]{
+    padding: 15px 30px;
+}
+
+button{
+    height: 100px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+
+
