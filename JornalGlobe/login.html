@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Globe</title>
+    <meta property="og:title" content="Jornal Globe" />
+    <meta property="og:description" content="Uma aplicação jornalistica" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="imagens/newspaper.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/131d03fe17.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Inicio Header -->
+    <header>
+        <div id="area-logo">
+            <i class="fa-sharp fa-solid fa-newspaper fa-2xl"></i>
+        </div>
+        <h1>Jornal Globe</h1>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Inicio Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="politica.html">Política</a></li>
+            <li><a href="esporte.html">Esporte</a></li>
+            <li><a href="entretenimento.html">Entretenimento</a></li>
+        </ul>
+    </nav>
+    <!-- Fim Navbar -->
+
+    <!-- Inicio Login -->
+    <main class="login">
+        <form method="post">
+            <div class="imgcontainer">
+                <i class="fa-sharp fa-solid fa-user-tie fa-2xl"></i>
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="loginButton">
+                    <i class="fa fa-door-open "></i>
+                    <strong>Login</strong>
+                </button>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+
+                <button type="button" class="loginButton">
+                    <i class="fa fa-xmark"></i>
+                    <strong>Cancel</strong>
+                </button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </main>
+    <!-- Fim Login -->
+
+    <!-- Inicio Footer -->
+    <footer>
+        <div id="contato">
+            <ul>
+                <h3>Redes sociais</h3>
+                <li>
+                    <a href="www.twitter.com">Twitter</a>
+                </li>
+                <li>
+                    <a href="wwww.instagram.com">Instagram</a>
+                </li>
+                <li>
+                    <a href="www.facebook.com">Facebook</a>
+                </li>
+                <li><a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="rodape">
+            <p>&copy; 2023 - Editora Itaquera News LTDA. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <!-- Fim Footer -->
+</body>
+
+</html>
