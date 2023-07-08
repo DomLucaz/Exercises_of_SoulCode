@@ -1,13 +1,24 @@
-<h2>Repositório SoulCode Academy e Porto Seguros. </h2>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+<h3>SoulCode Academy e Porto Seguros.</h3>
+
 <img width="1000px" src="https://i.imgur.com/H80get6.jpg" title="Soulcode"/>
 <br>
-<p> Respositório dedicado aos estudos do Bootcamp da <strong>SoulCode</strong>. Uma escola brasileira de inclusão digital que tem o objetivo de capacitar os alunos a se tornarem Desenvolvedor Java Full Stack e Cloud através de aulas imersivas, online e ao vivo. Transformam alunos em profissionais capacitados para a área de tecnologia.</p>
+<br>
+<p>This repository is dedicated to the<a href="https://soulcode.com/"> SoulCode Academy </a>in partnership with<a href="https://www.portoseguro.com.br/"> Porto </a>. Brazilian educational organization focused on digital inclusion. The academy's objective is to empower students to become Full Stack and Cloud Java Developers through immersive, online, and live classes. By providing comprehensive training, SoulCode Academy transforms students into skilled professionals in the technology field.</p>
 
+#
 
+### **Deploys** 🖥️
 
-### **Linguagens e Ferramentas** 🛠
+-   [Jornal Globe](https://domlucaz.github.io/Exercises_of_SoulCode/JornalGlobe/index.html)
 
--   JavaScript (Linguagem)
--   HTML5 e CSS3 (Estilização)
--   Visual Studio Code (IDE)
--   Git (Controle de Versão)
+#
+
+### **Linguagens e Ferramentas** ⚒️
+
+-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" width="40"/> JavaScript (Language)
+-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" width="40"/> HTML5 (Markup Language)
+-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" width="40"/> CSS3 (Style)
+-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" width="40"/> Visual Studio Code (IDE)
+-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" width="40"/> Git (Version Control)
