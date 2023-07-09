@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,500;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/portfolio-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merriweather', serif;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+
+#container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color:rgb(72, 255, 0);
+    border: black 1px solid;
+}
+
+main{
+    background-color: blueviolet;
+    
+}
+section{
+    background-color:rgb(0, 110, 255);
+    border: black 1px solid;
+    margin: 2px;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    border: black 1px solid;
+    background-color:rgb(0, 110, 255);
+    margin: 2px;
+}
+
+.perfil{
+    margin: 10px;
+    border: black 1px solid;
+    overflow: hidden;
+}
+.perfil img{
+    border: white .3125rem solid;
+    border-radius: 40em;
+    width: 250px;
+}
+
+button{
+    cursor: pointer;
+    height: auto;
+    
+}
+
+/* linear-gradient(223deg, #0171F4 5.41%, rgba(71, 255, 178, 0.00) 100%); */
