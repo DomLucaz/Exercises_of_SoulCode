@@ -56,7 +56,7 @@ aside{
     display: flex;
     justify-content: center;
     border: rgba(207, 206, 206, 0.932) .0625rem solid;
-    background-color:#0B39DE;
+    background: linear-gradient(#0171F4 5.41% 100%);
     margin: .125rem;
 }
 
