@@ -17,112 +17,72 @@ body{
     font-family: 'Karla', sans-serif;
 }
 
-#container{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    /* background-color:rgb(72, 255, 0); */
-    /* border: black 1px solid; */
-}
-
-/* área central */
 h1, h2{
     text-align: center;
 }
 
+/* área central */
 
+#container{
+    width: 80%;
+    display: flex;
+    border: black .0625rem solid;
+}
 
 main{
-    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
 }
+
 section{
     background-color:#0BA5DE;
-    /* border: black 1px solid; */
+    border: black .0625rem solid;
     box-sizing: border-box;
-    width: 100%;
     border-radius: 0.5em;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    margin: 2px;
-    padding: 20px 60px 40px 60px;
+    padding: 1.25rem 3.75rem 2.5rem 3.75rem;
     text-align: justify;
     overflow: hidden;
 }
 
-.box1{
-    height: 8rem;
-}
-
-.box2{
-    height: 12rem;
-}
-
-.box3{
-    height: 40.5rem;
-    /* border: black 1px solid; */
-}
-
 .box3 #group-card{
-    /* border: black 1px solid; */
+    min-height: 43.75rem;
     display: flex;
 }
-
-.box3 .card{
-    /* border: black 1px solid; */
-}
-
 
 /* Estilização barra lateral */
 
 aside{
     display: flex;
     justify-content: center;
-    border: black 1px solid;
+    border: black .0625rem solid;
     background-color:#0B39DE;
-    margin: 2px;
+    margin: .125rem;
 }
 
 .perfil{
-    margin: 10px;
-    border: black 1px solid;
+    margin: .625rem;
+    border: black .0625rem solid;
     overflow: hidden;
 }
 
 .perfil p {
     color: white;
+    margin-top: 10px;
 }
+
 .img{
-    border: white .3125rem solid;
+    border: white 5px solid;
     border-radius: 40em;
-    width: 250px;
+    width: 15.625rem;
 }
 
 /* Estilização Whatsapp icon */
 
 .whatsapp{
     position: fixed;
-    right: 200px;
+    right: 12.5rem;
     z-index: 9999;
 }
 
-.btn-whatsapp-pulse:hover{
-	text-decoration: none;
-	border-radius: 50%;
-	animation-name: pulse;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
-}
 
-@keyframes pulse {
-	0% {
-		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
-	}
-	80% {
-		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
-	}
-}
-
-
-
-
-/* linear-gradient(223deg, #0171F4 5.41%, rgba(71, 255, 178, 0.00) 100%); */
