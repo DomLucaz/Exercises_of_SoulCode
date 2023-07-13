@@ -26,7 +26,7 @@ h1, h2{
 #container{
     width: 80%;
     display: flex;
-    border: black .0625rem solid;
+    /* border: black .0625rem solid; */
 }
 
 main{
@@ -37,7 +37,7 @@ main{
 
 section{
     background-color:#0BA5DE;
-    border: black .0625rem solid;
+    border: rgba(207, 206, 206, 0.932) .0625rem solid;
     box-sizing: border-box;
     border-radius: 0.5em;
     padding: 1.25rem 3.75rem 2.5rem 3.75rem;
@@ -55,14 +55,13 @@ section{
 aside{
     display: flex;
     justify-content: center;
-    border: black .0625rem solid;
+    border: rgba(207, 206, 206, 0.932) .0625rem solid;
     background-color:#0B39DE;
     margin: .125rem;
 }
 
 .perfil{
     margin: .625rem;
-    border: black .0625rem solid;
     overflow: hidden;
 }
 
