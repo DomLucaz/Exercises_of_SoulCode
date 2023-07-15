@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;800&display=swap');
 
 
+/* style general */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +11,6 @@
 body{
     background: rgb(224,224,224);
     background: radial-gradient(circle, rgba(224,224,224,1) 0%, rgba(246,248,251,1) 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: 'Merriweather', serif;
     font-family: 'Karla', sans-serif;
     display: flex;
@@ -22,11 +21,10 @@ h1, h2{
     text-align: center;
 }
 
-/* área central */
+/* container style */
 
 #container{
     display: flex;
-    height: 100dvh;
     width: 100%;
     max-width: 1080px;
     gap: 8px;
@@ -34,56 +32,15 @@ h1, h2{
     /* border: black .0625rem solid; */
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    gap: 0.4em;
-}
 
-section{
-    background-color: #f6f8fb;
-    border: rgba(207, 206, 206, 0.932) .0625rem solid;
-    box-sizing: border-box;
-    border-radius: 0.5em;
-    padding: 1.25rem 3.75rem 2.5rem 3.75rem;
-    text-align: justify;
-    overflow: hidden;
-}
-
-section h1{
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: .125rem;
-    margin-bottom: 24px;
-}
-
-section p{
-    font-size: .875rem;
-}
-
-section ul{
-    font-size: .875rem;
-    display: flex;
-    flex-direction: column;
-    border: black .0625rem solid;
-}
-
-#group-card{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-}
-/* Estilização sidebar */
+/* sidebar Stylization  */
 
 #sidebar{
-    width: 320px;
-    flex-shrink: 0;
+    /* width: 320px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex-shrink: 0;
     border-radius: 0.5em;
     align-items: center;
     padding: 24px;
@@ -113,19 +70,137 @@ section ul{
 #sidebar ul{
     display: flex;
     flex-direction: column;
+    gap: 6px;
     width: 100%;
+}
+
+
+.link li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* border: black .0625rem solid; */
 }
 
 .img{
     border-radius: 40em;
     width: 15.625rem;
 }
+#sidebar a{
+    text-decoration: none;
+}
+
+#sidebar a:hover{
+    background-color: #67e8f921;
+    transition: .3s;
+}
+
+#sidebar a:link{
+    color: black;
+}
+#sidebar a:visited{
+    color: #0891b2;
+}
+
+
+/* Main boxs Stylization  */
+
+main{
+    display: flex;
+    box-sizing: ;
+    flex-direction: column;
+    gap: 0.4em;
+}
+
+section{
+    background-color: #f6f8fb;
+    border: rgba(207, 206, 206, 0.932) .0625rem solid;
+    border-radius: 0.5em;
+    padding: 18px 24px 18px 24px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+section h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .125rem;
+    margin-bottom: 8px;
+}
+
+section p{
+    font-size: .875rem;
+}
+
+
+.box2 ul{
+    font-size: .875rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.box2 a:hover {
+    background-color: #67e8f921;
+    transition: .3s; 
+}
+
+.box2 a:link{
+    color: black;
+}
+.box2 a:visited{
+    color: #0891b2;
+}
+
+
+#group-card{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    /* border: black .0625rem solid; */
+}
+
+.card{
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card p{
+    padding: 14px;
+    /* border: black .0625rem solid; */
+} 
+
+.card img{
+    border: rgba(207, 206, 206, 0.932) .0625rem solid;
+    border-radius: 40em;
+    width: 15.625rem;
+}
+
 
 /* Estilização Whatsapp icon */
 
 .whatsapp{
     position: fixed;
-    wi
+    width: 60px;
+    height: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 10px;
+    z-index: 1000px
 }
 
+/* Responsividade */
 
+@media screen and (max-width: 600px) {
+    #container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    }
+}
