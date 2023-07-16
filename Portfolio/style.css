@@ -86,28 +86,26 @@ h1, h2{
     border-radius: 40em;
     width: 15.625rem;
 }
-#sidebar a{
+#sidebar a, .card a{
     text-decoration: none;
 }
 
-#sidebar a:hover{
+#sidebar a:hover, .card a:hover{
     background-color: #67e8f921;
     transition: .3s;
 }
 
-#sidebar a:link{
+#sidebar a:link, .card a:link{
     color: black;
 }
-#sidebar a:visited{
+#sidebar a:visited, .card a:visited{
     color: #0891b2;
 }
-
 
 /* Main boxs Stylization  */
 
 main{
     display: flex;
-    box-sizing: ;
     flex-direction: column;
     gap: 0.4em;
 }
@@ -116,7 +114,7 @@ section{
     background-color: #f6f8fb;
     border: rgba(207, 206, 206, 0.932) .0625rem solid;
     border-radius: 0.5em;
-    padding: 18px 24px 18px 24px;
+    padding: 18px 26px 18px 26px;
     text-align: justify;
     overflow: hidden;
 }
@@ -140,12 +138,17 @@ section p{
     flex-direction: column;
 }
 
+.box2 li{
+    margin-bottom: 2px;
+}
+
 .box2 a{
     text-decoration: none;
     font-weight: bolder;
 }
 .box2 a:hover {
     background-color: #67e8f921;
+    font-weight: bolder;
     transition: .3s; 
 }
 
@@ -156,31 +159,36 @@ section p{
     color: #0891b2;
 }
 
-
 #group-card{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 1.25rem;
+    align-items: center;
     /* border: black .0625rem solid; */
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     text-align: center;
     font-weight: 600;
     font-style: normal;
+    line-height:.875rem;
 }
-
-.card p{
-    padding: 14px;
-    /* border: black .0625rem solid; */
-} 
 
 .card img{
     border: rgba(207, 206, 206, 0.932) .0625rem solid;
     border-radius: 40em;
-    width: 15.625rem;
+    margin: 10px 0 10px 0;
+    max-width:160px
+
 }
 
+.card a{
+    font-size: 14px;
+    font-weight: bold;
+}
 
 /* Estilização Whatsapp icon */
 
@@ -190,17 +198,46 @@ section p{
     height: 60px;
     height: 60px;
     bottom: 40px;
-    right: 10px;
+    right: 4px;
     z-index: 1000px
 }
 
 /* Responsividade */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
+
+    /* Responsividade container */
     #container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
     }
+
+/* Responsividade box2 */
+
+
+/* Responsividade box3 (minhas inspirações */
+
+    #group-card{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        /* border: black .0625rem solid;  */
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        /* border: black .0625rem solid;    */
+    } 
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img{
+        max-width:140px
+    
+    }
+    
 }
