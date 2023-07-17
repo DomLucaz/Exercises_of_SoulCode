@@ -5,7 +5,7 @@
 <img width="1000px" src="https://i.imgur.com/H80get6.jpg" title="Soulcode"/>
 <br>
 <br>
-<p>This repository is dedicated to the<a href="https://soulcode.com/"> SoulCode Academy </a>in partnership with<a href="https://www.portoseguro.com.br/"> Porto </a>. Brazilian educational organization focused on digital inclusion. The academy's objective is to empower students to become Full Stack and Cloud Java Developers through immersive, online, and live classes. By providing comprehensive training, SoulCode Academy transforms students into skilled professionals in the technology field.</p>
+<p>This repository is dedicated to the<a href="https://soulcode.com/" target="_blank"> SoulCode Academy </a>in partnership with<a href="https://www.portoseguro.com.br/" target="_blank"> Porto </a>. Brazilian educational organization focused on digital inclusion. The academy's objective is to empower students to become Full Stack and Cloud Java Developers through immersive, online, and live classes. By providing comprehensive training, SoulCode Academy transforms students into skilled professionals in the technology field.</p>
 
 #
 
