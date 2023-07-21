@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo</title>
+    <style>
+        .semaforo {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="imagem/vermelho.png" class="semaforo" id="imagem" alt="amarelo">
+    </div>
+    <button onclick="changeImage('imagem/amarelo.png')">Amarelo</button>
+    <button onclick="changeImage('imagem/verde.png')">Verde</button>
+    <button onclick="changeImage('imagem/vermelho.png')">Vermelho</button>
+    <button onclick="">Pause</button>
+
+    <script src="script.js">
+        function changeImage() {
+            let img = document.querySelector("#imagem");
+            img.setAttribute("src");
+        }
+
+        let auto = document.getElementById("#imagem");
+        let autoImg = ['imagem/amarelo.png', 'imagem/verde.png', 'imagem/vermelho.png']
+        setInterval(function (changeImage) {
+            let random = Math.floor(Math.random() * 3);
+            auto.src = autoImg[random];
+        }, 800);
+    </script>
+</body>
+
+</html>

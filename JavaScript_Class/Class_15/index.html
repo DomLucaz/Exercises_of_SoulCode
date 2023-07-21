@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+</head>
+
+<body>
+    <main>
+        <h1>Lista de Tarefas</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Concluido?</th>
+                    <th>Descrição</th>
+                    <th>Prioridade</th>
+                    <th>Status</th>
+                    <th>Prazo</th>
+                    <th>Apagar</th>
+                </tr>
+            </thead>
+            <tbody id="content-table">
+
+            </tbody>
+        </table>
+
+        <h2>Adicionar nova tarefa</h2>
+        <form id="form-tarefa">
+            <label>
+                Descrição:
+                <textarea id="descricao"></textarea>
+            </label><br>
+            <label>
+                Status:
+                <select id="status">
+                    <option value="Pendente">Pendente</option>
+                    <option value="Concluído">Concluído</option>
+                </select>
+            </label><br>
+            <label>
+                Prioridade:
+                <select id="prioridade">
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                </select>
+            </label><br>
+            <label>
+                Prazo:
+                <input type="date" id="prazo">
+            </label><br>
+            <label>
+                Hora:
+                <input type="time" id="hora">
+            </label><br>
+            <button>Enviar</button>
+        </form>
+    </main>
+
+    <script src="atividade.js"></script>
+</body>
+
+</html>
