@@ -1,6 +1,4 @@
 /* ---------------------- Limpar formatações padrão -------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap');
-
 * {
     margin:0;
     padding: 0;
@@ -13,18 +11,10 @@ body{
     background-attachment: fixed;
     font-family: 'Merriweather', serif;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 
-h1{
-    font-size: 300;
-}
-h2{
-    font-size: 700;
-}
-
-h3{
-    font-size: 700;
-}
 
 /* ---------------------- Barra de Navegação -------------------------*/
 
@@ -34,10 +24,11 @@ header{
     justify-content: center;
     align-items: center;
     margin: 1.125rem 0 1.125rem 0;
-
 }
 
 header h1{
+    font-size: 24px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 #area-logo{
@@ -48,7 +39,6 @@ nav {
     background-color: #ebebeb;
     display: flex;
     justify-content: center;
-    align-items: center;
     box-shadow: rgba(90, 90, 90, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
@@ -73,28 +63,37 @@ nav a:hover{
 
 /* ---------------------- Estilização main -------------------------*/
 
-.area-principal{
-    /*background-color:blanchedalmond ;*/
-    max-width: 60rem;
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 1em;
-    border: black 5px solid;
+    border: black 2px solid;
+    max-width: 1200px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
 }
 
 .primario {
-    grid-area: primario;
     border: black 5px solid;
     background-color: #777
 }
 
 .secundario {
-    grid-area: secundario;
     border: black 5px solid;
     background-color: #777
 }
 
 .lateral{
     border: black 5px solid;
-    background-color: aqua;
     grid-area: lateral;
 }
 
@@ -104,7 +103,10 @@ nav a:hover{
     background-color: #777
 }
 
+
 article{
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
 /* ---------------------- Estilização Footer -------------------------*/
@@ -116,7 +118,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: blue 1px solid;
     width: 100v;
     gap: 1.25rem;
 }
@@ -126,11 +127,9 @@ footer {
     width: 100%;
     justify-content: center;
     gap: 18px;
-    border: black 1px solid;
 }
 
 .content1, .content2, .content3{
-    border: black 1px solid;
 }
 
 .content1{
@@ -142,7 +141,6 @@ footer {
 #rodape {
     font-size:0.7rem;
     text-align: center;
-    border:red 1px solid;
 }
 footer ul{
     list-style-type: none;
